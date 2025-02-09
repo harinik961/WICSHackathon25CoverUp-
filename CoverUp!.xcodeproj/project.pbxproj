@@ -16,6 +16,14 @@
 		863F406E2D57C2A7004D7016 /* CoverUp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F406D2D57C2A7004D7016 /* CoverUp_Tests.swift */; };
 		863F40782D57C2A7004D7016 /* CoverUp_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F40772D57C2A7004D7016 /* CoverUp_UITests.swift */; };
 		863F407A2D57C2A7004D7016 /* CoverUp_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F40792D57C2A7004D7016 /* CoverUp_UITestsLaunchTests.swift */; };
+		863F40C92D58028C004D7016 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F40C82D58028C004D7016 /* LocationManager.swift */; };
+		863F40CB2D5802DC004D7016 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F40CA2D5802DC004D7016 /* WelcomeView.swift */; };
+		863F40CD2D580328004D7016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F40CC2D580328004D7016 /* ContentView.swift */; };
+		866347F22D58656800387BF2 /* ScreenScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866347F12D58656800387BF2 /* ScreenScroll.swift */; };
+		86835C652D584E0A0096BDF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86835C642D584E0A0096BDF9 /* TableViewController.swift */; };
+		86835C672D5850A40096BDF9 /* ShortSleevesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86835C662D5850A40096BDF9 /* ShortSleevesViewController.swift */; };
+		86835C6C2D5853610096BDF9 /* ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86835C6B2D5853610096BDF9 /* ViewCell.xib */; };
+		86835C6D2D5853610096BDF9 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86835C6A2D5853610096BDF9 /* ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		863F40732D57C2A7004D7016 /* CoverUp!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoverUp!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		863F40772D57C2A7004D7016 /* CoverUp_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverUp_UITests.swift; sourceTree = "<group>"; };
 		863F40792D57C2A7004D7016 /* CoverUp_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverUp_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		863F40C82D58028C004D7016 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		863F40CA2D5802DC004D7016 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		863F40CC2D580328004D7016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		866347F12D58656800387BF2 /* ScreenScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenScroll.swift; sourceTree = "<group>"; };
+		86835C642D584E0A0096BDF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		86835C662D5850A40096BDF9 /* ShortSleevesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortSleevesViewController.swift; sourceTree = "<group>"; };
+		86835C6A2D5853610096BDF9 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		86835C6B2D5853610096BDF9 /* ViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +117,15 @@
 			children = (
 				863F40562D57C2A7004D7016 /* AppDelegate.swift */,
 				863F40582D57C2A7004D7016 /* SceneDelegate.swift */,
+				863F40C82D58028C004D7016 /* LocationManager.swift */,
+				863F40CA2D5802DC004D7016 /* WelcomeView.swift */,
+				863F40CC2D580328004D7016 /* ContentView.swift */,
+				86835C642D584E0A0096BDF9 /* TableViewController.swift */,
+				86835C6A2D5853610096BDF9 /* ViewCell.swift */,
+				86835C6B2D5853610096BDF9 /* ViewCell.xib */,
+				866347F12D58656800387BF2 /* ScreenScroll.swift */,
 				863F405A2D57C2A7004D7016 /* ViewController.swift */,
+				86835C662D5850A40096BDF9 /* ShortSleevesViewController.swift */,
 				863F405C2D57C2A7004D7016 /* Main.storyboard */,
 				863F405F2D57C2A7004D7016 /* Assets.xcassets */,
 				863F40612D57C2A7004D7016 /* LaunchScreen.storyboard */,
@@ -231,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86835C6C2D5853610096BDF9 /* ViewCell.xib in Resources */,
 				863F40632D57C2A7004D7016 /* LaunchScreen.storyboard in Resources */,
 				863F40602D57C2A7004D7016 /* Assets.xcassets in Resources */,
 				863F405E2D57C2A7004D7016 /* Main.storyboard in Resources */,
@@ -258,7 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863F40CB2D5802DC004D7016 /* WelcomeView.swift in Sources */,
+				86835C652D584E0A0096BDF9 /* TableViewController.swift in Sources */,
+				866347F22D58656800387BF2 /* ScreenScroll.swift in Sources */,
+				86835C672D5850A40096BDF9 /* ShortSleevesViewController.swift in Sources */,
+				863F40C92D58028C004D7016 /* LocationManager.swift in Sources */,
+				863F40CD2D580328004D7016 /* ContentView.swift in Sources */,
 				863F405B2D57C2A7004D7016 /* ViewController.swift in Sources */,
+				86835C6D2D5853610096BDF9 /* ViewCell.swift in Sources */,
 				863F40572D57C2A7004D7016 /* AppDelegate.swift in Sources */,
 				863F40592D57C2A7004D7016 /* SceneDelegate.swift in Sources */,
 			);
